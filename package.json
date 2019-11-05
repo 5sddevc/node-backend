@@ -1,0 +1,33 @@
+{
+  "name": "codeavenueweb",
+  "version": "1.0.0",
+  "description": "Code Avenue / 5sd - Web Application. General Admin Panel Boilerplate frontend & backend",
+  "main": "server.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/5sddevc/Admin-panel.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/5sddevc/Admin-panel/issues"
+  },
+  "scripts": {
+    "client": "cd client && yarn start",
+    "server": "nodemon server.js",
+    "dev": "concurrently --kill-others-on-fail \"yarn server\" \"yarn client\""
+  },
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "joi": "^14.3.1",
+    "jsonwebtoken": "^8.5.1",
+    "lodash": "^4.17.15",
+    "mongoose": "^5.7.7",
+    "winston": "^3.2.1"
+  },
+  "devDependencies": {
+    "concurrently": "^5.0.0"
+  }
+}

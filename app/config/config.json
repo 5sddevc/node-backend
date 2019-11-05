@@ -1,0 +1,26 @@
+{
+  "development": {
+    "url" : "mongodb://localhost/lockey",
+    "username": "",
+    "password": "",
+    "database": "",
+    "host": "127.0.0.1",
+    "port": 8000
+  },
+  "test": {
+  "url" : "mongodb://localhost/lockey",
+  "username": "",
+  "password": "",
+  "database": "",
+  "host": "127.0.0.1",
+  "port": 8000
+  },
+  "production": {
+    "url" : "mongodb://localhost/lockey",
+    "username": "",
+    "password": "",
+    "database": "",
+    "host": "127.0.0.1",
+    "port": 8000
+  }
+}
